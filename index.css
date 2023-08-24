@@ -1,0 +1,69 @@
+/* * {
+  background-image: url("./FPBI.jpg");
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind other content */
+}
+
+.content {
+    text-align: center;
+    z-index: 1; /* Place the content above the video */
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 5px solid blueviolet;
+  background-color: rgb(11, 11, 61);
+}
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: blue;
+  margin-top: 100px;
+}
+.card-content {
+  font-size: 16px;
+  color: red;
+}
+
+.Player {
+  color: rgb(250, 9, 9);
+}
+.BUTTON {
+  background-image: none;  
+  background-color: #c70039;
+  border-radius: 5px;
+  border: 1px solid #c70039;
+  color: white;
+  padding: 11px 30px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+}
